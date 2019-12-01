@@ -24,8 +24,8 @@ function preload() {
   // this.load.image("mario-tiles", "/mason/img/super-mario-tiles.png");
   // this.load.tilemapCSV("map", "map.csv");
 
-  this.load.image("canyon", "/mason/img/mountain_landscape.png");
-  this.load.image("tile_world", "/mason/img/wood_tileset.png");
+  this.load.image("canyon", "img/mountain_landscape.png");
+  this.load.image("tile_world", "img/wood_tileset.png");
   this.load.tilemapTiledJSON("town-map", "youngoaks_map.json");
 
   // An atlas is a way to pack multiple images together into one texture. I'm using it to load all
@@ -33,7 +33,7 @@ function preload() {
   //  https://labs.phaser.io/view.html?src=src/animation/texture%20atlas%20animation.js
   // If you don't use an atlas, you can do the same thing with a spritesheet, see:
   //  https://labs.phaser.io/view.html?src=src/animation/single%20sprite%20sheet.js
-  this.load.atlas("atlas", "/mason/img/atlas.png", "/mason/atlas.json");
+  this.load.atlas("atlas", "img/atlas.png", "atlas.json");
   
 }
 
