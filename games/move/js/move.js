@@ -3,7 +3,7 @@ var canvasElement = document.getElementById('game-canvas');
 var canvas = canvasElement.getContext('2d');
 
 
-var FPS = 30;
+var FPS = 24;
 setInterval(function() {
     update();
     draw();
@@ -14,12 +14,15 @@ var textY = 50;
 
 
 function update() {
-    textX += 1;
-    textY += 1;
+    textX += 5;
+    textY += 0;
 }
 
 function draw() {
-    canvas.clearRect(0, 0, 640, 480);
-    canvas.fillStyle = "#000";
-    canvas.fillText("Sup Bro!", textX, textY);
+    canvas.clearRect(0, 0, 1000, 1000);
+    canvas.fillStyle = "#00000";
+    canvas.fillText("<<∆>>     <<∆>>    <-=∆=->   <<∆>>   <<∆>>   <-=∆=->    <<∆>>      <-=∆=->    <<∆>>   <-=∆=->", textX, textY);
 }
+
+
+
