@@ -24,7 +24,7 @@ function preload() {
   // this.load.image("mario-tiles", "/mason/img/super-mario-tiles.png");
   // this.load.tilemapCSV("map", "map.csv");
 
-  this.load.image("canyon", "img/mountain_landscape.png");
+  this.load.image("canyon", "img/mountain_landscape.png?v=1");
   this.load.image("tile_world", "img/wood_tileset.png");
   this.load.tilemapTiledJSON("town-map", "youngoaks_map.json");
 
