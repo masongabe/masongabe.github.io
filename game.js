@@ -1,4 +1,4 @@
-//13.05 https://www.youtube.com/watch?v=ju09womACpQ
+//14.28 https://www.youtube.com/watch?v=ju09womACpQ
 
 class Vec
 {
