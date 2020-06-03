@@ -57,8 +57,18 @@ class pong
         this.ball.vel.x = 100;
         this.ball.vel.y = 100;
 
+        let lastTime;
+        const callback(millis) => {
+            if (lastTime){
+                this.update((milis - lastTime) / 1000);
+            }
+            lastTime = millis;
+            requestAnimationFrame(callback);
+        };
+        callback();
+}
     }
-    update(dt){
+    update(dt) {
         this.ball.pos.x += this.ball.vel.x * dt;
         this.ball.pos.y += this.ball.vel.y * dt;
     
@@ -79,19 +89,6 @@ class pong
 
 const canvas = document.getElementById('pong');
 
+const pong = new Pong (canvas);
 
 
-
-let lastTime;
-function callback(millis) {
-    if (lastTime){
-        update((milis - lastTime) / 1000);
-    }
-    lastTime = millis;
-    requestAnimationFrame(callback);
-}
-
-function
-}
-
-callback();
