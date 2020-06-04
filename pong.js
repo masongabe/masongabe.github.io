@@ -74,7 +74,7 @@ class Pong
         this._canvas = canvas;
         this._context = canvas.getContext('2d');
 
-        this.initialSpeed = 500;
+        this.initialSpeed = 250;
 
         this.ball = new Ball;
 
@@ -152,7 +152,7 @@ class Pong
     }
     drawRect(rect)
     {
-        this._context.fillStyle = '#fff';
+        this._context.fillStyle = '#9CA89C';
         this._context.fillRect(rect.left, rect.top, rect.size.x, rect.size.y);
     }
     drawScore()
