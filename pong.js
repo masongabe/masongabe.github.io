@@ -45,7 +45,7 @@ class Ball extends Rect
 {
     constructor()
     {
-        super(10, 10);
+        super(20, 20);
         this.vel = new Vec;
     }
 }
@@ -54,7 +54,7 @@ class Player extends Rect
 {
     constructor()
     {
-        super(20, 100);
+        super(30, 110);
         this.vel = new Vec;
         this.score = 0;
 
