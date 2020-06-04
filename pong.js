@@ -74,7 +74,7 @@ class Pong
         this._canvas = canvas;
         this._context = canvas.getContext('2d');
 
-        this.initialSpeed = 250;
+        this.initialSpeed = 375;
 
         this.ball = new Ball;
 
