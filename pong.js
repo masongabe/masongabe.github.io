@@ -115,7 +115,7 @@ class Pong
             canvas.height = s * 5;
             canvas.width = s * 3;
             const context = canvas.getContext('2d');
-            context.fillStyle = '#fff';
+            context.fillStyle = '#9CA89C';
             str.split('').forEach((fill, i) => {
                 if (fill === '1') {
                     context.fillRect((i % 3) * s, (i / 3 | 0) * s, s, s);
