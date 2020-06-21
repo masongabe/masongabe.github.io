@@ -1,0 +1,18 @@
+.stripedbox {
+    width: 100px;
+    height: 25px;
+    border: 2px solid #606dbc;
+    padding: 10px 12px;
+    background: repeating-linear-gradient(
+        45deg,
+        #606dbc,
+        #606dbc 10px,
+        #465298 10px,
+        #465298 20px
+    );
+
+}
+
+.stripedbox p {
+    font-weight: bold;
+}
