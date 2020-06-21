@@ -1,8 +1,19 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #8C95CF;
+}
+
+
+
+
 .stripedbox {
-    width: 100px;
-    height: 25px;
-    border: 2px solid #606dbc;
-    padding: 10px 12px;
+    display: block;
+    border: 6px solid #465298;
+    padding: 10px;
+    margin: 0px;
+    text-align: left;
+    vertical-align: middle;   
     background: repeating-linear-gradient(
         45deg,
         #606dbc,
@@ -13,9 +24,34 @@
 
 }
 
-.stripedbox p {
-    font-weight: bold;
-    text-align: center;
-    color: #E3D6EB;
-    vertical-align: center;
+.short {
+    margin-top: 50px;
+    width: 200px;
+    height: 40px;
+    background-color: #606dbc;
+    display: block;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 6px solid #465298;
+    font-family: courier;
 }
+
+
+
+h1 {
+    font-weight: 900;
+    color: #fff;
+    margin: 0px;
+    padding: 10px;
+    font-family: courier;
+}
+
+h2 {
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    font-family: courier;
+}
+
