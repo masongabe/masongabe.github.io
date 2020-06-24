@@ -12,8 +12,7 @@ body{
     border: 6px solid #465298;
     padding: 10px;
     margin: 0px;
-    text-align: left;
-    vertical-align: middle;   
+    text-align: left;  
     background: repeating-linear-gradient(
         45deg,
         #606dbc,
@@ -81,13 +80,7 @@ input[type=text]{
       width: 100%;
   }
 
-  .tempname {
-      background-color: transparent;
-      padding-left: 500px;
-      padding-top: 20px;
-      outline: none;
-      width: 20%;
-  }
+
 
   h3 {
       font-size: 10;
@@ -97,7 +90,8 @@ input[type=text]{
 
 
   .input-container {
-      padding-left: 200px;
+    padding-top: 2em;
+    padding-left: 30em;
   }
 
   .long {
@@ -118,3 +112,18 @@ input[type=text]{
     font-size: 1.4em;
 
   }
+  label {
+      color: white;
+      font-family: courier;
+      font-weight: 900;
+  }
+
+  .infobox {
+      border: 6px solid #465298;
+      background-color: #606dbc;
+      font-family: courier;
+      color: white;
+      text-align: center;
+  }
+
+  
