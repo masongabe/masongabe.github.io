@@ -126,4 +126,23 @@ input[type=text]{
       text-align: center;
   }
 
+  .op {
+      font-weight: 900;
+      font-family: courier;
+      color: #ffffff;
+      display: block;
+      text-align: center;
+  }
+
+  .radio {
+      font-family: courier;
+      font-weight: 900;
+      text-align: center;
+      color: #ffffff;
+      display: block;
+      background-color: #606dbc;
+      border: 3px solid #465298;
+      width: 200px;
+      margin: 0 auto;
+  }
   
