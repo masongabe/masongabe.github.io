@@ -170,3 +170,10 @@ input[type=text]{
          width: 400px;
          
   }
+
+  .wrong {
+      background-color: red;
+  }
+  .right {
+      background-color: green;
+  }
