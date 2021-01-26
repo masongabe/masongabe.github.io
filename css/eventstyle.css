@@ -1,0 +1,13 @@
+#box {
+    position:absolute;
+    padding:10px;
+    border:1px solid black;
+    background-color:blue;
+    border-radius: 10px;
+
+}
+
+body {
+    background-color:black;
+}
+
