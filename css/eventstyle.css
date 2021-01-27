@@ -1,13 +1,16 @@
 #box {
     position:absolute;
-    padding:10px;
-    border:1px solid black;
-    background-color:blue;
-    border-radius: 10px;
+    padding:25px;
+    border:5px solid #573c02;
+    background-color: #785406;
+    border-radius: 100px;
 
 }
 
 body {
-    background-color:black;
-}
+    background-size: 40px 40px;
+    background-image:
+      linear-gradient(to right, black 4px, transparent 10px),
+      linear-gradient(to bottom, black 4px, transparent 10px);
+  }
 
