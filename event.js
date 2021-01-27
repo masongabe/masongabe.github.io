@@ -1,5 +1,7 @@
 let boxElement = document.getElementById("box");
 
+let fire = false;
+
 let X = 0;
 
 let Y = 0;
@@ -8,15 +10,17 @@ let keyState = {
     up: false,
     down: false,
     left: false,
-    right: false
+    right: false,
+    space: false
 }
+
+
 
 
 
 
 document.addEventListener("keydown", function(e){
 
-    console.log(e.code)
 
     if (e.code === "ArrowRight" || e.code === "KeyD") {
 
@@ -35,13 +39,16 @@ document.addEventListener("keydown", function(e){
 
         keyState.up = true;
     }
+    if (e.code === "Space"){
+
+        keyState.space = true;
+    }
 
 });
 
 
 document.addEventListener("keyup", function(e){
 
-    console.log(e.code)
 
     if (e.code === "ArrowRight" || e.code === "KeyD") {
 
@@ -58,6 +65,10 @@ document.addEventListener("keyup", function(e){
     if (e.code === "ArrowUp" || e.code === "KeyW") {
 
         keyState.up = false;
+    }
+    if (e.code === "Space"){
+
+        keyState.space = false;
     }
 
 });
@@ -76,9 +87,19 @@ function tick(){
         Y -= 10;
     }
 
+    fire = keyState.space;
+
     boxElement.style.left = X + "px";
     boxElement.style.top = Y + "px";
  
+    shoot();
 }
 
-setInterval(tick, 20);
+setInterval(tick, 30);
+
+
+function  shoot(){
+    if (fire === true){
+        console.log("JHGASJDHGASJDHGASJDHGJSDGH");
+    }
+}
