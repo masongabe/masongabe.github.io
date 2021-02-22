@@ -20,4 +20,45 @@ body {
      height: 100%;
   background-color: aquamarine;
 }
+#Canvas3{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+  background-color: aquamarine;
+}
+#Canvas4{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+  background-color: rgb(66, 66, 66);
+}
+
+#Canvas5{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+  background-color: aquamarine;
+}
+#Canvas6{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+  background-color: aquamarine;
+}
+#Canvas7{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+  background-color: aquamarine;
+}
 
