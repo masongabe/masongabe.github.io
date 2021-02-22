@@ -106,9 +106,6 @@ function update(){
     }
    
 
-
-   
-
     render();
 }
 
